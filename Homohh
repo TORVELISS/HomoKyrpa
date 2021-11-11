@@ -290,7 +290,7 @@ TextButton_5.TextScaled = true
 TextButton_5.TextSize = 14.000
 TextButton_5.TextWrapped = true
 TextButton_5.MouseButton1Down:connect(function()
-_G.Speed = 10
+_G.Speed = 6
 --[[
 set speed lower in the streets, they have something
 unbypassable, it detects if you were off the floor and
