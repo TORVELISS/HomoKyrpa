@@ -181,10 +181,11 @@ local Event = game:GetService("ReplicatedStorage").Remotes.Jutsu
 Event:FireServer(A_1, A_2, A_3)
 wait(0.1)
 local A_1 = "Jutsu"
-local A_2 = "Fire"
-local A_3 = "Flame Dragon Pillar"
+local A_2 = "Wind"
+local A_3 = "Wind Cutter"
 local Event = game:GetService("ReplicatedStorage").Remotes.Jutsu
 Event:FireServer(A_1, A_2, A_3)
+wait(0.1)
 
 end
 end)
@@ -310,7 +311,7 @@ TextButton_6.BorderSizePixel = 2
 TextButton_6.Position = UDim2.new(0.356451631, 0, 0.336787552, 0)
 TextButton_6.Size = UDim2.new(0, 178, 0, 51)
 TextButton_6.Font = Enum.Font.GothamBlack
-TextButton_6.Text = "Tp to Chibi"
+TextButton_6.Text = "Tp to Shukaku"
 TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_6.TextScaled = true
 TextButton_6.TextSize = 14.000
@@ -329,7 +330,7 @@ Credits.BackgroundTransparency = 1.000
 Credits.Position = UDim2.new(0.0225806236, 0, 0.150259078, 0)
 Credits.Size = UDim2.new(0, 200, 0, 50)
 Credits.Font = Enum.Font.Oswald
-Credits.Text = "Made by TORVELIS"
+Credits.Text = "Made by TORVELIS & help from NotNaenaed"
 Credits.TextColor3 = Color3.fromRGB(15, 14, 14)
 Credits.TextScaled = true
 Credits.TextSize = 30.000
